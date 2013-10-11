@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<!--ImageView id='img' image='/android/default.png' /-->
+		<WebView id="webview" url='/web/viewer.html' />
+		<Button id='btnStart' />
+		<Button id='btnPause' />
+	</Window>
+</Alloy>

@@ -1,0 +1,31 @@
+".container": {
+	backgroundColor:"white"
+	
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"#webview": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 200
+},
+
+"#btnStart": {
+	title: "Start/Stop",
+	top: 200,
+	width: 200,
+	height: 40,
+	left: 0
+},
+
+"#btnPause": {
+	title: 'Pause/Resume',
+	top: 200,
+	height: 40,
+	width: 200,
+	left: 202,
+	enabled: false
+}
