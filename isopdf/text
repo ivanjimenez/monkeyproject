@@ -1,0 +1,9 @@
+Hola, Gabi:
+
+   Ya estoy viendo el tema del pdf viewer pero por ahora no lo logro hacer funcionar, he hablado con el tipo de soporte (en los correos de más abajo) y me está viendo el problema; a ver si lo largo de hoy o mañana me puede averiguar qué ocurre con el módulo.
+
+  La verdad, la documentación que provee deja mucho que desear y no especifica claramente cómo se debe utilizar. 
+
+  Pero el tema del módulo no es ese, ya que, como lo quiere la academia, hay que abrirlo en un webview de una página local y para eso, este módulo no sirve, ya que sólo abre pdfs que estén en el dispositivo. Lo que nos da dos opciones: 
+- Descargar el pdf previamente de la ubicación y luego abrirlo en el dispositivo (se podría hacer vía descarga a una carpeta tmp auxiliar que cree la app y luego que se borrada; esta opción me gusta menos porque pueda tener algún efecto colateral).
+- Hacer que funcione el pdf dentro del webview de forma online

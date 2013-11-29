@@ -40,9 +40,6 @@ function Controller() {
     $.__views.index.add($.__views.btnPause);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    Ti.Gesture.addEventListener("orientationchange", function() {
-        Ti.Android.currentActivity.setRequestedOrientation(Ti.Android.SCREEN_ORIENTATION_LANDSCAPE);
-    });
     var audioPlayer = Ti.Media.createAudioPlayer({
         url: "/audio.mp3",
         allowBackground: true
@@ -52,7 +49,6 @@ function Controller() {
         if (audioPlayer.playing || audioPlayer.paused) {
             audioPlayer.stop();
             $.btnPause.enabled = false;
-            audioPlayer.release();
         } else {
             audioPlayer.start();
             $.btnPause.enabled = true;
